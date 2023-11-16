@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get 'users/:user_id', to: 'user#show'
+  
+  get 'users', to: 'user#index'
 end
